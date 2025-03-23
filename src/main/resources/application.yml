@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: back
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_finalProject?serverTimezone=Asia/Seoul
+    username: user_finalProject
+    password: 1234
+  
+  jpa:
+    hibernate.ddl-auto: update
+    properties.hibernate.format_sql: true
+    show-sql: true
