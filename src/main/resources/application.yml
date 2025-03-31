@@ -12,3 +12,26 @@ spring:
     hibernate.ddl-auto: update
     properties.hibernate.format_sql: true
     show-sql: true
+
+
+  servlet:
+    multipart:
+      max-request-size: 30MB
+      max-file-size: 10MB
+
+com:
+  finalProject:
+    upload:
+      path: upload
+
+
+  devtools:
+    restart:
+      enabled: false
+
+logging:
+  level:
+    org:
+      springframework:
+        security:
+          web: trace
